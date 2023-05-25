@@ -7,20 +7,23 @@ void main() {
     for (i = 0; i < 5; i++) {
         printf("Nhap vao phan tu %d: ", i+1);
         scanf("%d", &ary[i]);
-    }
-    
-    max = ary [0];
-    min = ary [0];
-    for (i = 1; i < 5; i++){
+        tong += ary[i];
+        if(i == 0)
+        {
+            max = ary [0];
+            min = ary [0];
+        }
+        else
         {
             if (ary[i] > max)
                 max = ary[i];
-            else if (ary[i] < min)
+            if (ary[i] < min)
                 min = ary[i];
         }
-        tong += ary[i];
-        trungbinh = (float)tong/i;
+        
     }
+        trungbinh = (float)tong/i;
+    
     printf("So lon nhat la %d", max);
     printf("\nSo be nhat la %d\n", min);
     printf("Tong cac so la %d\n", tong);
