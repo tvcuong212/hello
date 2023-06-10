@@ -1,0 +1,56 @@
+<html>
+
+<head>
+    <title>CSS Selectors</title>
+    <style> 
+    * {
+        color: red;
+    }
+
+    p {
+        color: blue;
+    }
+
+    p>a {
+        color: green;
+    }
+
+    ul>li a {
+        background-color: grey;
+    }
+
+    ul>li>a {
+        font-size: 12px;
+    }
+
+    a:hover {
+        color: pink;
+    }
+
+    #top {
+        border: 1px solid;
+    }
+    .note{
+        color: black;
+    }
+    </style>
+</head>
+
+<body>
+    <h1><a id="top">Kitchen Garden Calendar</a></h1>
+    <p id="introduction">Here you can read our handy guide about what to do when.</p>
+    <h2 class="note">Spring</h2>
+    <ul>
+        <li><a href="mulch.html">Spring mulch vehetable beds</a></li>
+        <li><a href="potato.html">Planet out early potatoes</a></li>
+        <li><a href="tomato.html">Sow beet seeds</a></li>
+        <li><a href="beet.html">Sow beet seeds</a></li>
+        <li><a href="zucchini.html">Sow zucchini seeds</a></li>
+        <li><a href="rhubarb">Deadhead rhubarb flovers</a></li>
+    </ul>
+    <p class="note introduction">This page was wrtitten by <a href="mailto: vietcuong@viciagency.vn">vietcuong@viciagency.vn</a>for <a href="https://www.google.com">Wiley</a>.</p>
+    <p><a href="top">Top of page</a></p>
+</body>
+</html>
+
+<!--Đây là ví dụ về Internal CSS-->
