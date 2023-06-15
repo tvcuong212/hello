@@ -1,0 +1,196 @@
+<html>
+    <head>
+        <title>Airbnb demo</title>
+    </head>
+    <style>
+        header, section, footer, aside, nav, article, figure, figcaption{display: block;}
+        body {
+            color: #666666;
+            background-color: #f9f8f6;
+            background-position: center;
+            font-family: Georgia, Times, serif;
+            line-height: 1.4em;
+            margin: 0px;     
+           }
+        
+        .wrapper {
+            width: 940px;
+            margin: 20px auto 20px auto;
+            border: 2px solid #000000;
+            background-color: white;
+        }
+
+        header {
+            height: 160px;
+
+        }
+
+        h1 {
+            text-indent: -9999px;
+            width: 940px;
+            height: 35px;
+            margin: 0px;
+        }
+
+        nav, footer {
+            clear: both;
+            color: white;
+            background-color: #ff5a5f;
+            height: 30px;
+        }
+
+        nav ul {
+            margin: 0px;
+            padding: 5px 0px 5px 30px;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 40px;
+        }
+
+        nav li a {
+            color: white;
+        }
+
+        nav li a:hover, nav li a.current {
+            color: #000000;
+        }
+
+        section.courses {
+            float: right;
+            width: 659px;
+            border-left: 1px solid #eeeeee;
+        }
+
+        article {
+            clear: both;
+            overflow: auto;
+            width: 100%;
+        }
+
+        hgroup {
+            margin-top: 40px;
+        }
+
+        figure {
+            float: left;
+            width: 290px;
+            height: 220px;
+            padding: 5px;
+            margin: 20px;
+            border: 1px solid #eeeeee;
+        }
+
+        figcaption {
+            font-size: 90%;
+            text-align: left;
+        }
+
+        aside {
+            width: 230px;
+            float: left;
+            padding: 0px 0px 0px 30px;
+        }
+
+        a {
+            color: #ff5a5f;
+            text-decoration: none;
+        }
+
+        h1, h2, h3 {
+            font-weight: normal;
+        }
+
+        h2 {
+            margin: 10px 0px 5px 0px;
+            padding: 0px;
+        }
+
+        h3 {
+            margin: 0px 0px 10px 0px;
+            color: #ff5a5f;
+        }
+
+        aside h2 {
+            padding: 30px 0px 10px 0px;
+            color: #ff5a5f;
+        }
+
+        footer {
+            font-size: 80%;
+            padding: 7px 0px 0px 20px;
+        }
+
+        header img {
+            max-width: 20%;
+            display: block;
+            margin-bottom: 35px;
+            margin-left: 30px;
+        
+        }
+
+        section img {
+            width: 290px;
+            height: 200px;
+        }
+        
+
+    </style>
+    <body>
+    <div class="wrapper">
+        <header>
+            <h1>Airbnb Demo</h1>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Airbnb_Logo_Bélo.svg/2560px-Airbnb_Logo_Bélo.svg.png" alt="">
+            <nav>
+                <ul>
+                    <li><a href="" class="current">Căn hộ</a></li>
+                    <li><a href="">Resort</a></li>
+                    <li><a href="">Biệt thự</a></li>
+                    <li><a href="">Khách sạn</a></li>
+                    <li><a href="">Nhà nghỉ</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="courses">
+            <article>
+                <figure>
+                    <img src="https://manofmany.com/wp-content/uploads/2018/05/10-Best-AirBnBs-in-Melbourne-for-the-Luxury-Traveller-Panoramic-Penthouse-2-1.jpg" alt="canho1">
+                    <figcaption><b>43USD</b>/đêm</figcaption>
+                </figure>
+                <hgroup>
+                    <h2>Căn hộ 1Br Old Quarter</h2>
+                    <h3>Edinburgh, Vương quốc Anh</h3>
+                </hgroup>
+                <p>Trong một ngôi nhà của kiến trúc sư nơi chúng tôi sinh sống, bạn sẽ có một phòng ngủ với 2 giường tầng. Có một phòng ngủ khác cho thuê với một nhà/phòng cho thuê khác với giường đôi 140cm.</p>
+            </article>
+            <article>
+                <figure>
+                    <img src="https://wander-lush.org/wp-content/uploads/2021/01/Best-Airbnbs-in-Portugal-Loft-Lisbon.jpg" alt="canho2">
+                    <figcaption><b>59USD</b>/đêm</figcaption>
+                </figure>
+                <hgroup>
+                    <h2>Căn hộ 2Br yên tĩnh tại Paris</h2> 
+                    <h3>Malakoff, Île-de-France, Pháp</h3>
+                </hgroup>
+                <p>Đi đến Paris bằng ga tàu hỏa (cách Montparnasse 15 phút). Phòng ngủ với 2 giường tầng và ghế sofa futon. Lối vào phòng tắm và nhà vệ sinh trên lầu</p>
+            </article>
+        </section>
+        <aside>
+
+            <section class="contact-details">
+                <h2>Tiện ích miễn phí</h2>
+                <p> Chỗ đỗ xe tại nơi ở<br>
+                    Bảo vệ 24/7<br>
+                    Bữa sáng buffet <br>
+                    Wifi tốc độ cao <br>
+                    Hướng dẫn viên <br>
+                    </p>
+            </section>
+        </aside>
+        <footer>
+            &copy; 2023 Airbnb
+        </footer>
+    </div>
+    </body>
+</html>
